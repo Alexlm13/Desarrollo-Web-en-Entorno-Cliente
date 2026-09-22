@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+</head>
+
+<body>
+    <script>
+        let resultado = "Adolfo Suárez"
+        let control;
+        do {
+            control = prompt("¿Cuál fue el primer presidente de la democracia española?");
+
+            switch (control.toLowerCase()) {
+
+                case "adolfo suárez":
+                    break;
+
+                case "adolfo":
+                    alert("Te falta el apellido");
+                    break;
+
+                case "suárez":
+                    alert("Te falta el nombre");
+                    break;
+
+                default:
+                    alert("ERROR. Inténtelo de nuevo");
+                    break;
+            }
+
+        } while (control.toLowerCase() != resultado.toLowerCase());
+    </script>
+</body>
+
+</html>
