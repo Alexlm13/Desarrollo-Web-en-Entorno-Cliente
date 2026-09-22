@@ -12,7 +12,7 @@
         do {
             control=prompt("¿Cuál fue el primer presidente de la democracia española");
 
-            switch(control.toLocaleLowerCase()){
+            switch(control.toLowerCase()){
                 case "adolfo suárez":
                 break;
 
@@ -25,7 +25,7 @@
                 break;
                 
                 default:
-                    alert("ERROR. Inténtelo de nuevo")
+                    alert("ERROR. Inténtelo de nuevo");
                 break;
             }
         } while (control.toLowerCase() != resultado.toLowerCase());
