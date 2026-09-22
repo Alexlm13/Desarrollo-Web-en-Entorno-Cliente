@@ -10,19 +10,19 @@
         let hora=9;
         let enPunto=true;
 
-        document.write("<ul>")
-        for (hora; hora <=21; hora++){
-            if(enPunto){
-                document.write("<li>"+hora+":00 "+enPunto+"</li>")
+        document.write(`<ul>`)
+        for (hora; hora <= 21; hora++) {
+            if (enPunto) {
+                document.write(`<li>${hora}:00 ${enPunto}</li>`)
             }
-
-            enPunto=!enPunto
-
+            enPunto=!enPunto;
             if(!enPunto){
-                document.write("<li>"+hora+":30 "+enPunto+"</li>")
+                document.write(`<li>${hora}:30 ${enPunto}</li>`)
+                
             }
             enPunto=true;
         }
+        document.write(`</ul>`)
     </script>
 </body>
 </html>
