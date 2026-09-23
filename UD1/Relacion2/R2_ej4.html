@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <script>
+        let nColumnas;
+        let height;
+        let width;
+        let i=0;
+
+        nColumnas=prompt("Numero de columnas");
+        height=prompt("Altura");
+        width=prompt("Anchura");
+
+        /*
+            Para que funcione habia que quitar el width="200" de la etiqueta <table>
+            en el ejemplo aparece y me fallaba a la hora de poner la anchura de la tabla
+            siempe me salia la misma anchura.    
+        */
+        document.write(`
+        <table border="0" cellspacing="2" bgcolor="black">
+        <tr bgcolor="white" height="${height}">    
+        `)
+
+        while(i<nColumnas){
+            document.write(`<td width="${width}">&nbsp;</td>`);
+            i++;
+        }
+        
+        document.write(`
+        </tr>
+        </table>
+        `)    
+    </script>
+</body>
+</html>

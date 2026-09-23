@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5</title>
+</head>
+<body>
+    <script>
+        let n=parseInt(prompt("Número que hay que adivinar"));
+        let adivinar;
+        let errores=0;
+
+        do {
+            adivinar=parseInt(prompt("Adivina el número"));
+            if (adivinar>n) {
+                alert("El número que tienes que adivinar es más pequeño")
+                errores++;
+            } else if (adivinar<n) {
+                alert("El número que tienes que adivinar es más grande");
+                errores++;
+            }
+        } while (n!=adivinar);
+        alert("Acertaste, has tenido "+errores+" errores.")
+    </script>
+</body>
+</html>
