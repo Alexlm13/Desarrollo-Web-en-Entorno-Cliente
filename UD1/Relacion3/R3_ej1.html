@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+    <script>
+        let birth = prompt("Año en el que naciste.");
+
+        function ageCalculator(birth) {
+            let year = new Date();
+            let resultado = year.getFullYear() - birth;
+            document.write(`Tienes o bien ${resultado} o ${resultado - 1}`)
+        }
+
+        ageCalculator(birth);
+    </script>
+</body>
+
+</html>

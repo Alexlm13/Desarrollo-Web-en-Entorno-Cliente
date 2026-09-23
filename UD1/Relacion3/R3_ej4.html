@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <script>
+        let celsius=prompt("Introduzca grados Celsius");
+        let fahrenheit=prompt("Introduzca grados Fahrenheit");
+
+        function converTemperature(celsius, fahrenheit){
+            let f=(celsius*1.8)+32;
+            let c=Math.round((fahrenheit-32)/1.8);
+
+            document.write(`<p>${celsius}º Celsius a Fahrenheit son ${f}ºF</p><p>${fahrenheit}º Fahrenheit a Celsius son ${c}ºC</p>`);
+        }
+
+        converTemperature(celsius, fahrenheit);
+    </script>
+</body>
+</html>

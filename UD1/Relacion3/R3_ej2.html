@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+        let edadActual=prompt("¿Cuál es tu edad actual?");
+        let edadMaxima=prompt("¿Hasta que edad crees que vas a llegar?");
+        let kgAlDia=prompt("¿Cuántos kilos de comida consumes al día?");
+
+
+        function supplyCalculator(edadActual, edadMaxima, kgAlDia){
+            let añosRestantes;
+            let dias;
+            let kgTotales;
+
+            añosRestantes=edadMaxima-edadActual;
+            dias=añosRestantes*365;
+            kgTotales=dias*kgAlDia;
+
+            document.write(`Necesitarás ${kgTotales} kg de comida para que te dure hasta los ${edadMaxima} años.`);
+        }
+
+        supplyCalculator(edadActual, edadMaxima, kgAlDia);
+    </script>
+</body>
+</html>
