@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio12</title>
+</head>
+<body>
+    <script>
+        let precio=prompt("Escriba el precio del producto");
+        let rebaja=prompt("¿De cuánto es la rebaja?");
+        function precioFinal(pBase, desc){
+            let resultado;
+            let descuento=desc/100;
+            resultado=pBase-(pBase*descuento);
+
+            document.write(`El precio con descuento aplicado son en total: ${resultado}`);
+        }
+        precioFinal(precio,rebaja)
+    </script>
+</body>
+</html>

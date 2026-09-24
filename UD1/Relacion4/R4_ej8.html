@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+</head>
+<body>
+    <script>
+        function rango(v1, v2, r1, r2){
+            if((v1>=r1 && v1<=r2)&&(v2>=r1 && v2<=r2)){
+                document.write(`${v1} y ${v2} están dentro del rango`);
+            }else if ((v1>=r1 && v1<=r2)&&!(v2>=r1 && v2<=r2)) {
+                document.write(`${v1} está dentro del rango pero ${v2} no`);
+            }else if(!(v1>=r1 && v1<=r2)&&(v2>=r1 && v2<=r2)){
+                document.write(`${v2} está dentro del rango pero ${v1} no`);
+            }else{
+                document.write(`No están en el rango`);
+            }
+        }
+        rango(3,9,2,14);
+    </script>
+</body>
+</html>

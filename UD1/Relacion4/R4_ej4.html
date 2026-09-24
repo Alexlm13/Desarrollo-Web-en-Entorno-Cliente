@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array1=[1,"gato",4,5];
+        let array2=[2,8];
+
+        function combineTwoArrays(array1, array2){
+            let array3=[];
+
+            for (let i = 0; i < array1.length; i++) {
+                array3.push(array1[i]);
+            }
+
+            for (let i = 0; i < array2.length; i++) {
+                array3.push(array2[i]);
+            }
+
+            document.write(array3);
+        }
+        combineTwoArrays(array1, array2)
+    </script>
+</body>
+</html>

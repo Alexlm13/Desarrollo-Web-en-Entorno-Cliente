@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+        function sum(...num){
+            let resultado=0;
+            for (let i = 0; i < num.length; i++) {
+                resultado += num[i];
+            }
+            document.write(resultado)
+        }
+        sum(4,5,2,1,5,7);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio13</title>
+</head>
+<body>
+    <script>
+        let numero=prompt("Escriba un número para calcular su factorial");
+        function factorial(num){
+            let resultado=1;
+            let operacion="";
+            
+            document.write(`<p>Tu número es: ${num}</p>`);
+
+            for (num ;num >= 1; num--) {
+                resultado=resultado*num;
+                operacion=operacion+num;
+
+                if(num>1){
+                    operacion+="x"
+                }
+            }document.write(`${operacion} = ${resultado}`);
+        }
+        factorial(numero);
+    </script>
+</body>
+</html>

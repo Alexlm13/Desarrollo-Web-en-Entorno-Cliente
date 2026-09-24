@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+        function addOnlyNums(...nums){
+            let suma=0;
+            for (let i = 0; i < nums.length; i++) {
+                if(typeof nums[i]==="number"){
+                    suma+=nums[i];
+                }/*else{
+                    document.write(nums[i]);
+                }*/
+            }
+            document.write(suma);
+        }
+        addOnlyNums(1,'cat',3,4);
+    </script>
+</body>
+</html>
