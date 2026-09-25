@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+        function onlyUniques(...args){
+            let array=[];
+            for (let i = 0; i < args.length; i++) {
+                let esta=false;
+                for (let j=0; j<array.length; j++){
+                    if(array[j]==args[i]){
+                        esta=true;
+                    }
+                }
+                if (!esta) {
+                    array.push(args[i]);
+                }
+            }
+            document.write(array);
+            return array;
+            
+        }
+        console.log(onlyUniques('cat', 'cat', 'dog', 'pig', 'dog'));
+    </script>
+</body>
+</html>
