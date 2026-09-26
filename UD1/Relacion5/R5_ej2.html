@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+        function squareAndSum(...nums){
+            let suma=0;
+            for (let i = 0; i < nums.length; i++) {
+                    suma+=nums[i]*nums[i];
+            }
+            document.write(`${suma}<br>`);
+            return suma;
+        }
+        console.log(squareAndSum(2,4,3));
+        console.log(squareAndSum(1,2));
+
+    </script>
+</body>
+</html>
