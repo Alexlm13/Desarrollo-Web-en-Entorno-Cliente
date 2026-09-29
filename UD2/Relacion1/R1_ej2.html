@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+        function diasCumpleaños(textoCumple){
+            let partes=textoCumple.split("-");
+            let anio=Number(partes[0]);
+            let mes=Number(partes[1]);
+            let dia=Number(partes[2]);
+            let cont=0;
+
+            for(let i=anio;i<=2100; i++){
+                let fecha=new Date(i, mes-1, dia);
+                if(fecha.getDay()===0){
+                    cont++;
+                }
+            }
+            console.log(cont);
+        }
+
+        diasCumpleaños("1998-12-27");
+    </script>
+</body>
+</html>

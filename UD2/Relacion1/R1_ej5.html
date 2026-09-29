@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5</title>
+</head>
+
+<body>
+    <script>
+        function potencia() {
+            let x = prompt("Escriba un número");
+            let y = prompt("Escriba un exponente");
+            let resultado = Math.pow(x, y);
+
+            document.write(`La potencia de ${x} elevado a ${y} es: ${resultado}`)
+        }
+
+        function raiz() {
+            let numero = parseFloat(prompt("Escriba un número"));
+            if (numero < 0) {
+                document.write("El número no debe ser negativo");
+            } else {
+                document.write(`La raíz de ${numero} es: ${Math.sqrt(numero)}`)
+            }
+        }
+
+        function redondear() {
+            let numeroDecimal = parseFloat(prompt("Escriba un número decimal"));
+            document.write(`Número entero a la baja: ${Math.floor(numeroDecimal)}<br>Número entero al alza: ${Math.ceil(numeroDecimal)}`);
+        }
+
+        function trigonometria() {
+            let angulo = parseFloat(prompt("Introduzca un ángulo del 0 al 360"));
+            let radiante = angulo * Math.PI / 180;
+            if (angulo >= 0 && angulo <= 360) {
+                document.write(`Seno: ${Math.sin(radiante)}<br>Coseno: ${Math.cos(radiante)}<br>Tangente: ${Math.tan(radiante)}`)
+            } else {
+                document.write("Debe ser entre 0 y 360.")
+            }
+        }
+
+
+        function funciones() {
+            let opcion;
+
+            do {
+                opcion = parseInt(
+                    prompt(`
+                    Introduce una opción:
+                    1. Potencia
+                    2. Raíz
+                    3. Redondear
+                    4. Trigonometría`));
+
+                switch (opcion) {
+                    case 1:
+                        potencia();
+                        break;
+                    case 2:
+                        raiz();
+                        break;
+                    case 3:
+                        redondear();
+                        break;
+                    case 4:
+                        trigonometria();
+                        break;
+                }
+
+            } while (opcion <= 1 && opcion >= 4);
+        }
+        funciones();
+    </script>
+</body>
+
+</html>
