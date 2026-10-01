@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let frase="hola a todo el mundo"
+        let frase2="Frase con palabras mas largas de 5 carácteres"
+        let i=5;
+
+        document.write(`<p>a)<br>La cadena invertida quedaria así: ${invierteCadena(frase)}</p>`);
+
+        document.write(`<p>b)<br>La frase invertida quedaria así: ${inviertePalabras(frase)}</p>`);
+
+        document.write(`<p>c)<br>La palabra más larga es: ${encuentraPalabraMasLarga(frase)}</p>`);
+
+        document.write(`<p>d)<br>La palabra más larga es: ${filtraPalabrasMasLargas(frase2, i)}</p>`);
+
+        document.write(`<p>e)<br>La palabra más larga es: ${cadenaBienFormada(frase)}</p>`);
+    </script>
+</body>
+</html>
