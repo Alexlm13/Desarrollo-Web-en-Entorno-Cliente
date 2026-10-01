@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio10</title>
+</head>
+<body>
+    <script>
+        let frase = "Voy a escribir una frase algo larga";
+
+        function contarVocalesSueltas(frase) {
+            let contA = 0;
+            let contE = 0;
+            let contI = 0;
+            let contO = 0;
+            let contU = 0;
+
+            for (let i = 0; i < frase.length; i++) {
+                switch (frase[i].toLocaleLowerCase()) {
+                    case "a":
+                        contA++
+                        break;
+                    case "e":
+                        contE++
+                        break;
+                    case "i":
+                        contI++
+                        break;
+                    case "o":
+                        contO++
+                        break;
+                    case "u":
+                        contU++
+                        break;
+                }
+
+            }
+            document.write(`
+            En total hay:<br>
+            a: ${contA}<br>
+            e: ${contE}<br>
+            i: ${contI}<br>
+            o: ${contO}<br>
+            u: ${contU}
+            `);
+        }
+
+        contarVocalesSueltas(frase);
+    </script>
+</body>
+</html>
