@@ -181,3 +181,11 @@ function validateCreditCard(tarjeta) {
 
   return true;
 }
+
+
+
+// EJERCICIO10
+function validateCreditCard2(tarjeta){
+    tarjeta=tarjeta.replaceAll("-","");
+    return validateCreditCard(tarjeta);
+}
