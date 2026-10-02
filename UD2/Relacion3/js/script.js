@@ -91,3 +91,17 @@ function separarVocales(frase){
     separacion=consonantes+vocales;
     return separacion;
 }
+
+//EJERCICIO5
+function eliminaRepetidos(frase){
+    debugger;
+    let arrayFrase=frase.split("");
+    let fraseSinRepeticiones=""
+
+    for (let i = 0; i < frase.length; i++) {
+        if(arrayFrase[i]!=arrayFrase[i-1]){
+            fraseSinRepeticiones+=arrayFrase[i];
+        }
+    }
+    return fraseSinRepeticiones;
+}
