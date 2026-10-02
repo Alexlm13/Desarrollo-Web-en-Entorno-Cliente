@@ -71,3 +71,23 @@ function cuantaSubcadena(cadena, subcadena) {
     }
     return cont;
 }
+
+
+// EJERCICIO4
+function separarVocales(frase){
+    arrayFrase=frase.split("");
+    let vocales="";
+    let consonantes="";
+    let separacion="";
+    for(i=0;i<arrayFrase.length; i++){
+        if (arrayFrase[i].toLowerCase()=="a"||arrayFrase[i].toLowerCase()=="e"||arrayFrase[i].toLowerCase()=="i"||arrayFrase[i].toLowerCase()=="o"||arrayFrase[i].toLowerCase()=="u") {
+            vocales+=arrayFrase[i];
+        }else if (arrayFrase[i]==" ") {
+            
+        }else{
+            consonantes+=arrayFrase[i];
+        }
+    }
+    separacion=consonantes+vocales;
+    return separacion;
+}
