@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="reloj"></p>
+    <script>
+
+        let reloj=setInterval(() => {
+            let fecha = new Date();
+            let horas = fecha.getHours();
+            let minutos = fecha.getMinutes();
+            let segundos = fecha.getSeconds();
+            document.getElementById("reloj").innerHTML = horas + ":" + minutos + ":" + segundos;
+        }, 1000);
+
+        setTimeout(()=> {
+            clearInterval(reloj);
+            document.getElementById("reloj").innerHTML = "Reloj parado automáticamente.";
+        },60000)
+    </script>
+</body>
+
+</html>

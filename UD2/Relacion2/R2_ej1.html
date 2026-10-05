@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="contador"></p>
+    <script>
+        let contador=60;
+
+        document.getElementById("contador").innerHTML=contador;
+        
+        let intervalo=setInterval(()=>{
+                contador-=1;
+                document.getElementById("contador").innerHTML = contador;
+
+        },1000);
+
+        setTimeout(()=> {
+            clearInterval(intervalo);
+            document.getElementById("contador").innerHTML = "El contador ha terminado";
+        },60000)
+    </script>
+</body>
+</html>
