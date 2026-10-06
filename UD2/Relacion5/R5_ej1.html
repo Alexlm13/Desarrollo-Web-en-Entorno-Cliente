@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <input type="button" value="Abrir ventana" onclick="creaVentana()">
+    <input type="button" value="Cerrar ventana" onclick="cerrarVentana()">
+    <script>
+        let titulo=prompt("escriba un título para la página");
+        let ventana;
+
+        function cerrarVentana(){
+            ventana.close();
+        }
+
+        function creaVentana(){
+            ventana=window.open("","","height=400, width=500, left="+screen.width+", top=0");
+            ventana.document.write(`<title>${titulo}</title><h1>${titulo}</h1>`);
+        }
+    </script>
+</body>
+</html>

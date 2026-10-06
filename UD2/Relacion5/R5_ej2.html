@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio2</title>
+</head>
+<body>
+    <input type="button" value="abrir ventana" onclick="crearVentana()">
+    <input type="button" value="cerrar ventana secundaria" onclick="cerrarVentana()">
+    <script>
+        let ventana;
+        
+        function cerrarVentana(){
+            ventana.close();
+        }
+        
+        function crearVentana(){
+            ventana=window.open("","", "height=500","width=400");
+
+            ventana.document.write(`<input type="button" value="cerrar ventana" onclick="cerrarVentana()">`);
+        }
+    </script>
+</body>
+</html>

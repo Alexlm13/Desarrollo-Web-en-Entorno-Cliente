@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="crear ventana" onclick="creaVentana()">
+    <input type="button" value="cerrar ventana" onclick="cierraVentana()">
+
+    <script>
+        let vnueva;
+
+        function cierraVentana(){
+            vnueva.close();
+        }
+
+        function creaVentana(){
+            vnueva=window.open("","ejemplo","width=200,height=250");
+
+            vnueva.document.write("Ejemplo de creación de ventana");
+            vnueva.document.write(
+                `<input type="button" value="crear ventana" onclick="creaVentana()"/>`
+            );
+            vnueva.moveTo(-500,300);
+        }
+    </script>
+</body>
+</html>

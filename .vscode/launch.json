@@ -5,6 +5,12 @@
             "name": "http://127.0.0.1:5500/UD2/Relacion3/R3_ej5.html",
             "request": "launch",
             "url": "http://127.0.0.1:5500/UD2/Relacion3/R3_ej5.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:5500/UD2/ejemploBOM/ejBOM.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/UD2/ejemploBOM/ejBOM.html"
         }
     ]
 }
