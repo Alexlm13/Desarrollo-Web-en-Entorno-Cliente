@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio5</title>
+</head>
+<body>
+    <input type="button" value="abrir ventana secundaria" onclick="crearVentana()">
+    <input type="button" value="cerrar ventana secundaria" onclick="cerrarVentana()"> <!--Cierra ventana secundaria-->
+    <input type="button" value="Envía un mensaje a la ventana secundaria" onclick="enviarMensaje('Mensaje desde la ventana principal')">
+    <script>
+        let ventana;
+        
+        function crearVentana(){
+            ventana=window.open("","", "height=500, width=400");
+
+            ventana.document.write(`
+                <p id="parrafo"></p>
+                <input type="button" value="cerrar ventana" onclick="window.close()">
+            `); // Crea boton en ventana secundaria que cierra dicha ventana
+        }
+
+        function enviarMensaje(texto){
+            let objeto=ventana.document.getElementById("parrafo");
+            objeto.innerHTML=texto;
+        }
+
+        function cerrarVentana(){
+            ventana.close();
+        }
+    </script>
+</body>
+</html>

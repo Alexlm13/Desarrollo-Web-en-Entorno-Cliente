@@ -16,9 +16,9 @@
         }
         
         function crearVentana(){
-            ventana=window.open("","", "height=500","width=400");
+            ventana=window.open("","", "height=500, width=400");
 
-            ventana.document.write(`<input type="button" value="cerrar ventana" onclick="cerrarVentana()">`);
+            ventana.document.write(`<input type="button" value="cerrar ventana" onclick="window.close()">`);
         }
     </script>
 </body>
