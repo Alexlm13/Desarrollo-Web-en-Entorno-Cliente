@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@2.0.0-alpha.1/dist/leaflet.css"
+        integrity="sha256-P+hWJNlpL+GBSRYC7cdsDbQH91URmpDeOzLp7DbFRtE=" crossorigin="" />
+    <script type="importmap">
+ {
+     "imports": {
+         "leaflet": "https://cdn.jsdelivr.net/npm/leaflet@2.0.0-alpha.1/dist/leaflet.js"
+     },
+     "integrity": {
+         "https://cdn.jsdelivr.net/npm/leaflet@2.0.0-alpha.1/dist/leaflet.js": "sha256-gj5JhNAaMi6LCs+jVFOk8sXDe1sWSS2Zlc87m+trLiQ="
+     }
+ }
+ </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="map" style="height: 600px;"></div>
+
+    <script type="module">
+        import { LeafletMap, TileLayer, Marker, Circle, Polygon, Popup } from 'leaflet';
+
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                console.log("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function showPosition(position) {
+            let latitud = position.coords.latitude;
+            let longitud = position.coords.longitude;
+
+            const map = new LeafletMap('map').setView([latitud, longitud], 20);
+
+            new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+
+        }
+
+        getLocation();
+    </script>
+</body>
+
+</html>
