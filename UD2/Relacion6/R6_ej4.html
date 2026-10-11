@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <b>a) </b><a href="ejercicio4/ej1_a.html">Define un enlace que se desplaza hasta una línea en la que existe un marcador. El marcador está en un enlace que si se activa muestre el nombre de este.</a><br>
+    <b>b) </b>Indica el nombre del host en el que está publicada la página que estamos viendo.<br>
+    <p id="host"></p>
+    <b>c) </b>Devuelve la URL completa de la página actual.<br>
+    <p id="href"></p>
+    <b>d) </b><a href="#" onclick="irDireccion()">Pregunta por una dirección y la activas en el navegador actual.</a><br>
+    <b>e) </b>Indica el protocolo que se está utilizando en la página actual.<br>
+    <p id="protocolo"></p>
+    <b>f) </b><a href="#" onclick="recargar()">Crea un enlace que al activarlo recarga de nuevo la página.</a>
+
+    <script>
+        document.getElementById("host").innerHTML=location.host;
+        document.getElementById("href").innerHTML=location.href;
+        document.getElementById("protocolo").innerHTML=location.protocol;
+    </script>
 </body>
 </html>

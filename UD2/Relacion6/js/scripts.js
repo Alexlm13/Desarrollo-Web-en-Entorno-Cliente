@@ -88,3 +88,17 @@ function bajarPersonalizado() {
     let y=prompt("A donde quieres mover y");
     window.scrollTo(0,y);
 }
+
+
+// EJERCICIO4
+
+// d
+function irDireccion(){
+    let direccion=prompt("Escribe una dirección completa (por ejemplo: https://www.google.com):");
+    location.href=direccion;
+}
+
+// f
+function recargar(){
+    location.reload();
+}
