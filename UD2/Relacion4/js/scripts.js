@@ -16,18 +16,18 @@ function randomUsuario(n1,n2){
 
 // EJERCICIO 2
 function seno(n){
-    let radiante=Math.PI*n/180;
-    return Math.sin(radiante);
+    let radianes=Math.PI*n/180;
+    return Math.sin(radianes);
 }
 
 function coseno(n){
-    let radiante=Math.PI*n/180;
-    return Math.cos(radiante);
+    let radianes=Math.PI*n/180;
+    return Math.cos(radianes);
 }
 
 function tangente(n){
-    let radiante=Math.PI*n/180;
-    return Math.tan(radiante);
+    let radianes=Math.PI*n/180;
+    return Math.tan(radianes);
 }
 
 

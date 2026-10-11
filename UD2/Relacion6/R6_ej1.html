@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>Información</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Idioma</td>
+            <td id="idioma"></td>
+        </tr>
+        <tr>
+            <td>Platform</td>
+            <td id="platform"></td>
+        </tr>
+        <tr>
+            <td>User Agent</td>
+            <td id="userAgent"></td>
+        </tr>
+        <tr>
+            <td>Online</td>
+            <td id="online"></td>
+        </tr>
+        <tr>
+            <td>Cookies</td>
+            <td id="cookies"></td>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById("idioma").innerHTML = navigator.language;
+        document.getElementById("platform").innerHTML = navigator.platform;
+        document.getElementById("userAgent").innerHTML = navigator.userAgent;
+        document.getElementById("online").innerHTML = navigator.online;
+        document.getElementById("cookies").innerHTML = navigator.cookieEnabled;
+    </script>
+</body>
+
+</html>
