@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 5</title>
 </head>
 <body>
-    
+    <b>a) </b>Escribe en el documento la fecha de la última actualización<br>
+    <p id="fecha"></p>
+    <b>b) </b><a href="./ejercicio5/ej5_b.html">Muestra la URL desde la cual se ha activado el enlace que ha llevado al usuario hasta el documento actual.</a><br>
+    <b>c) </b>Muestra el título del documento actual<br>
+    <p id="titulo"></p>
+    <b>d) </b>Muestra la URL completa<br>
+    <p id="url"></p>
+    <b>e) </b><a href="./ejercicio5/ej5_e.html">Un documento se abre automáticamente cuando empieza a cargarse y se cierra cuando termina de hacerlo, Así pues si deseamos escribir en un documento sin sobreescribir su contenido, debemos hacerlo antes de que éste termine de cargar. Si lo hacemos después, sobreescribimos su contenido. Implementa dos ejemplos que lo demuestran </a><br>
+
+    <script>
+        document.getElementById("fecha").innerHTML=document.lastModified;
+        document.getElementById("titulo").innerHTML=document.title;
+        document.getElementById("url").innerHTML=document.URL;
+    </script>
 </body>
 </html>

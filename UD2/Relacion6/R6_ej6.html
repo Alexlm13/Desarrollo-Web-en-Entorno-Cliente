@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="./js/scripts.js"></script>
+    <title>Ejercicio 6</title>
 </head>
+
 <body>
-    
+    <a name="Primera imagen">Primer ancla</a><br>
+    <a name="Segunda imagen">Segundo ancla</a><br>
+    <a name="Tercera imagen">Tercer ancla</a><br>
+
+    <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt="javascript" width="150" height="100" id="JavaScript">
+    <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="css" width="100" height="100">
+    <img src="https://images.seeklogo.com/logo-png/17/2/html5-with-wordmark-blackwhite-logo-png_seeklogo-176954.png" alt="html" width="100" height="100"><br>
+
+    <a href="https://www.marca.com/">marca</a><br>
+    <a href="https://www.pccomponentes.com/">pccomponentes</a><br>
+    <a href="https://www.youtube.com/">youtube</a><br>
+
+
+
+    <p>
+        <b>a) </b>Muestra el número de anclas que tiene el documento<br>
+            <p id="anclas"></p>
+        <b>b) </b>Muestra el texto dentro del tag del primer ancla (innerHTML). <br>
+            <p id="primerAncla"></p>
+        <b>c) </b>Muestra el número de imágenes del documento. <br>
+            <p id="numeroImg"></p>
+        <b>d) </b>Muestra el id de la primera imagen. <br>
+            <p id="primerImg"></p>
+        <b>e) </b>Muestra el número de enlaces del documento. <br>
+            <p id="numeroEnl"></p>
+        <b>f) </b>Cambia el título del documento. <br>
+            <button onclick="cambiarTitulo()">Cambia el nombre al título</button>
+    </p>
+
+    <script>
+        document.getElementById("anclas").innerHTML = `El documento tiene ${document.anchors.length} anclas.`;
+        document.getElementById("primerAncla").innerHTML=document.anchors[0].innerHTML;
+        document.getElementById("numeroImg").innerHTML=`El número de imágenes es: ${document.images.length}`;
+        document.getElementById("primerImg").innerHTML=document.images[0].id;
+        document.getElementById("numeroEnl").innerHTML=`El número de enlaces es: ${document.links.length}`;
+    </script>
 </body>
+
 </html>
