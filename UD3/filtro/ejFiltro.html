@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const arNombres = ["ANTONIO", "lucas", "juan", ];
+
+        function cuentaValores(ar, funCumpleCondicion) {
+            let cantidad=0;
+            for (let v of ar) {
+                if(funCumpleCondicion(v)){
+                    cantidad++;
+                }
+            }
+            return cantidad;
+        };
+
+        console.log(cuentaValores(arNombres, (v) => v === v.toUpperCase()));
+    </script>
+</body>
+
+</html>
