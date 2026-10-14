@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arAlumnos = [
+            { codigo: 3, nombre: "Juan Gomez", edad: 16 }, 
+            { codigo: 1, nombre: "Pedro Gomez", edad: 18 }, 
+            { codigo: 5, nombre: "Antonio Gomez", edad: 15 }, 
+            { codigo: 7, nombre: "Luis Gomez", edad: 19 }
+        ]
+
+        
+        let encontrado=arAlumnos.find((obItem)=>obItem.codigo==5);
+        console.log(encontrado);
+
+        let ordenado=arAlumnos.sort((a,b)=>a.codigo-b.codigo);
+        console.log(ordenado);
+
+        let mayores=arAlumnos.filter((x)=>x.edad>=18);
+        console.log(mayores);
+    </script>
+</body>
+
+</html>
