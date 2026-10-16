@@ -9,25 +9,7 @@
 
 <body>
     <script>
-        let ar = [];
 
-        for (let i = 1; i <= 20; i++) {
-            ar[i] = Math.floor(Math.random() * 100) + 1
-        }
-
-        let maximo = (objNum) => Math.max(objNum);
-        let minimo = (objNum) => Math.min(objNum);
-        let total = 0;
-
-        for (let num of ar) {
-            total += num;
-        }
-
-        let medio = total / ar.length;
-
-        console.log(`El número máximo es: ${maximo(...ar)}`);
-        console.log(`El número minimo es: ${minimo(...ar)}`);
-        console.log(`El número máximo es: ${medio}`);
     </script>
 </body>
 
