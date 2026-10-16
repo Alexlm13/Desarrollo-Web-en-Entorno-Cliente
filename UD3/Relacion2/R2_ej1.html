@@ -6,6 +6,26 @@
     <title>Ejercicio1</title>
 </head>
 <body>
-    
+    <script>
+        let arNum=[];
+        for(let i=0;i<5;i++){
+            arNum.push(parseFloat(prompt(`Introduzca el número ${i+1} de 5:`)));
+        }
+
+        //let maximo=Math.max(...arNum);
+        let minimo=Math.min(...arNum);
+        let maximo=(objNum)=>Math.max(...objNum);
+        
+        let suma=0;
+        for(let num of arNum){
+            suma+=num;
+        }
+
+        let media=suma/arNum.length;
+
+        console.log(`Máximo: ${maximo(arNum)}`);
+        console.log(`Mínimo: ${minimo}`);
+        console.log(`Medio: ${media}`);
+    </script>
 </body>
 </html>
