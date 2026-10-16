@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <input type="button" value="Generar tiradas" onclick="tiradas()">
+    <p id="tiradas"></p>
+    <script>
+        let random=() => Math.floor(Math.random()*6)+1;
+
+        function tiradas() {
+            let cont = [0, 0, 0, 0, 0, 0];
+
+            for (let i = 0; i < 6000; i++) {
+                cont[random() - 1]++;
+            }
+
+            let texto = "";
+            for (let i = 0; i < cont.length; i++) {
+                texto += "El " + (i + 1) + " salió " + cont[i] + " veces<br>";
+            }
+            document.getElementById("tiradas").innerHTML = texto;
+        }
+        
+    </script>
 </body>
+
 </html>

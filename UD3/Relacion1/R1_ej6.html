@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+
+        let a=prompt("Escriba un número");
+        let b=prompt("Escriba su exponente");
+
+        function potenciasRecursivas(a, b){
+            if(b==0) return 1;
+            return a*potenciasRecursivas(a,b-1); 
+        }
+
+        document.write(`la potencia de ${a} elevado a ${b} es: ${potenciasRecursivas(a,b)}`)
+    </script>
 </body>
 </html>
