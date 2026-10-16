@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+        let colores=["azul", "amarillo", "rojo", "verde", "cafe", "rosa"];
+
+        let color=prompt("Introduzca un color");
+
+        let encontrar=colores.find(objColor => objColor===color);
+
+        if(encontrar){
+            console.log("El color está dentro del array");
+        }else{
+            console.log("El color no se encuentra dentro del array");
+        }
+
+    </script>
+</body>
+</html>

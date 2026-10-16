@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Factorial</th>
+            </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+    </table>
+    <script>
+        function factorial(n) {
+            if (n == 0 || n == 1) {
+                return 1;
+            }
+            return n * factorial(n - 1);
+        }
+        let filas="";
+
+        for (let i = 1; i <= 10; i++) {
+            filas += `<tr><td>${i}</td><td>${factorial(i)}</td></tr>`;
+        }
+        document.getElementById("tabla").innerHTML = filas;
+        
+    </script>
+</body>
+
+</html>
