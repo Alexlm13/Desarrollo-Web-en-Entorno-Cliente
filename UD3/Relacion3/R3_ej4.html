@@ -7,7 +7,15 @@
 </head>
 <body>
     <script>
-        
+        let clase = [ "Ángel García, 20, 6, 7, 10", "Manuel Álvarez, 18, 4, 3, 5", "David Sánchez, 25, 8, 7, 6"];
+
+        function aleatorio(){
+            let pos=Math.floor(Math.random()*clase.length);
+            let nombre=clase[pos].split(",");
+            
+            return nombre[0];
+        }
+        document.write(aleatorio());
     </script>
 </body>
 </html>

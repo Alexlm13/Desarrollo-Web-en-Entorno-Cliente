@@ -7,7 +7,19 @@
 </head>
 <body>
     <script>
-        
+        let clase = [ "Ángel García, 20, 6, 7, 10", "Manuel Álvarez, 18, 4, 3, 5", "David Sánchez, 25, 8, 7, 6"];
+
+        function edadMedia(){
+            let edad=0;
+            let suma=0
+            for (let i = 0; i < clase.length; i++) {
+                let arAux=clase[i].split(",");
+                suma+=Number(arAux[1]);
+            }
+            return edad=suma/clase.length            
+        }
+
+        console.log(edadMedia());
     </script>
 </body>
 </html>

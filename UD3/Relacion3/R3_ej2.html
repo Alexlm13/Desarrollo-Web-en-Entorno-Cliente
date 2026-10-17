@@ -7,7 +7,25 @@
 </head>
 <body>
     <script>
-        
+        let clase = [ "Ángel García, 20, 6, 7, 10", "Manuel Álvarez, 18, 4, 3, 5", "David Sánchez, 25, 8, 7, 6"];
+
+        function notas(a, trimestre){
+            let alumno=clase[a].split(",");
+            let notas = [Number(alumno[2]), Number(alumno[3]), Number(alumno[4])];
+            
+            if (trimestre===undefined) {
+                return(notas[0]+notas[1]+notas[2])/3
+            }
+            if (trimestre < 1 || trimestre > 3) {
+                return "El trimestre debe ser 1, 2 o 3";
+            }
+            return notas[trimestre - 1];
+        }
+
+        console.log(notas(1,2));
+        console.log(notas(1));
+        console.log(notas(0,1));
+        console.log(notas(2,3));
     </script>
 </body>
 </html>
