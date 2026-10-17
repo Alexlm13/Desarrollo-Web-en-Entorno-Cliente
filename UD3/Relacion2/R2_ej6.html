@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio1</title>
 </head>
+
 <body>
-    
+        <p>Eran las seis de la tarde cuando Elena cruzó la puerta de la vieja biblioteca. El aire olía a papel antiguo y
+            a lluvia reciente.
+        </p>
+        <p>Caminó despacio entre los pasillos de madera hasta detenerse frente al estante de poesía; allí escondido
+            entre dos tomos descoloridos, encontró el cuaderno azul que su abuelo había perdido cincuenta años
+            atrás
+        </p>
+
+    <input type="button" onclick="encontrar()" value="Encontrar palabra">
+    <p id="encontrado"></p>
+    <script>
+        let palabra = prompt("Escriba una palabra a buscar");
+
+        let encontrar=()=> {
+            if (window.find(palabra, true)) {
+                document.getElementById("encontrado").innerHTML= "Palabra encontrada en el texto"
+            } else {
+                document.getElementById("encontrado").innerHTML= "Palabra no encontrada en el texto"
+            }
+        }
+
+    </script>
 </body>
+
 </html>

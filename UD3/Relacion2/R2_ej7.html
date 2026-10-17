@@ -6,6 +6,16 @@
     <title>Ejercicio1</title>
 </head>
 <body>
-    
+    <script>
+        let numeros=[]
+        for (let i = 0; i <= 19; i++) {
+            numeros[i]=Math.floor(Math.random()*100);
+        }
+
+        let ordenados=(v)=>v.filter((num,i)=>v.indexOf(num)===i).sort((a,b)=>a-b);
+
+        document.write(`Números sin ordenar: ${numeros} <br>`);
+        document.write(`Números ordenados: ${ordenados(numeros)} `);
+    </script>
 </body>
 </html>

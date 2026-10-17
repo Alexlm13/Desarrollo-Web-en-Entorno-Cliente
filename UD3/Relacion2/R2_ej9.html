@@ -6,6 +6,19 @@
     <title>Ejercicio1</title>
 </head>
 <body>
-    
+    <script>
+        let cadena="Esto es una cadena para prácticar";
+        let arAux=cadena.split(" ");
+
+        document.write(`
+            Número de palabras: ${arAux.length}<br>
+            Primera palabra: ${arAux[0]}<br>
+            Última palabra: ${arAux[arAux.length-1]}<br>
+            Frase al revés: ${arAux.reverse()}<br>
+            Orden a-z: ${arAux.sort((a,b)=>a.localeCompare(b))}<br>
+            Orden z-a: ${arAux.sort((a,b)=>b.localeCompare(a))}<br>
+        `);
+
+    </script>
 </body>
 </html>
