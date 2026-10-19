@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+        let ar = [2,6,8,9,4,2,6,6,4,5];
+
+        function cero() {
+            for (let i = 0; i < 10; i++) {
+                ar[i] = 0;
+            }
+            return ar;
+        }
+
+        function añadirUno(){
+            for (let i = 0; i < ar.length; i++) {
+                ar[i] += 1;
+
+            }
+            return ar;
+        }
+
+        function valoresEspacios(){
+            let texto=ar.join(" ");
+            return texto;
+        }
+
+        document.write(`${cero()}<br>${añadirUno()}<br>${valoresEspacios()}`)
     </script>
 </body>
+
 </html>
