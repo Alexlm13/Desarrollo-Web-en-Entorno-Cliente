@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <input type="text" id="nombre" placeholder="Nombre del vendedor">
+    <input type="number" id="ventas" placeholder="Ventas de la semana">
+    <input type="button" onclick="altaVendedor()" value="Dar de alta">
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ventas</th>
+                <th>Sueldo final</th>
+            </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+    </table>
+
     <script>
-        
+        let nombres = [];
+        let arVentas = [];
+
+        function altaVendedor(){
+            let nombre=document.getElementById("nombre").value;
+            let venta=Number(document.getElementById("ventas").value);
+
+            nombres.push(nombre);
+            arVentas.push(venta);
+
+            console.log(nombres, arVentas);
+            mostrarTabla();
+            calcularSueldo(venta);
+        }
+
+        function calcularSueldo(venta){
+            let bonus=200+venta*0.09;
+            return bonus+venta;
+        }
+
+        function mostrarTabla(){
+            document.getElementById("tabla").innerHTML="";
+
+            for (let i = 0; i < nombres.length; i++) {
+                let sueldo=calcularSueldo(arVentas[i]);
+
+                document.getElementById("tabla").innerHTML+=`<tr><td>${nombres[i]}</td><td>${arVentas[i]}</td><td>${sueldo}</td></tr>`;
+                
+            }
+        }
     </script>
 </body>
+
 </html>
