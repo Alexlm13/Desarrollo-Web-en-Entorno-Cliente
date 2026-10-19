@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+
+        function paresImpares() {
+            let arNum = [];
+            let arPares = [];
+            let arImpares = [];
+            for (let i = 0; i < 100; i++) {
+                arNum[i] = Math.floor(Math.random() * 1000) + 1;
+                if (arNum[i] % 2 == 0) {
+                    arPares.push(arNum[i]);
+                } else {
+                    arImpares.push(arNum[i]);
+                }
+            }
+            console.log("Array original:", arNum);
+
+            arNum = arPares.concat(arImpares);
+
+            console.log("Array reorganizado:", arNum);
+        }
+        paresImpares();
     </script>
 </body>
+
 </html>
