@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /**
+        * @name removeWords
+        * @description Dado un string y un array de palabras a remover, devuelve el string sin las palabras removidas
+        *
+        * @param {string} str - Texto a recortar
+        * @param {string[]} words - Palabras a remover
+        * @returns {string} - Texto resultante con las palabras removidas
+        *
+        * @example
+        * removeWords("This is a really bad test", ["really", "bad"]) // returns "This is a test"
+        */
+
+        function removeWords(str, words) {
+            let palabras = str.split(" ");
+            let arAux = [];
+
+            for (let i = 0; i < palabras.length; i++) {
+                if (!words.includes(palabras[i])) {
+                    arAux.push(palabras[i]);
+                }
+            }
+
+            return arAux.join(" ");
+        }
+
+        console.log(removeWords("This is a really bad test", ["really", "bad"]));
+    </script>
+</body>
+
+</html>
