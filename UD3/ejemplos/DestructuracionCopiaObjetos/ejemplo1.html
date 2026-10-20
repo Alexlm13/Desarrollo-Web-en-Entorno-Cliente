@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // extraer resto de un Array
+        const arModulos = ["DWC", "DWS", "Interfaces", "IPE"];
+        let [mod1, mod2, ...arResto] = arModulos;
+        console.log(arModulos);
+
+        // unir arrays
+        const arProf = ["Sergio", "Gerardo", "Gustavo", "Susana"];
+        let arCompleto = [...arModulos, ...arProf]
+        console.log(arCompleto);
+
+        // extraer propiedades
+        let objModulo={
+            codigo:1,
+            nombre:"DWC",
+            profesor: "Sergio"
+        }
+        let {nombre, profesor}=objModulo;
+        console.log(objModulo);
+
+        // copiar objeto para añadir propiedades
+        let objModuloCopia={...objModulo, aula:"P2A7"}
+        console.log(objModuloCopia)
+
+    </script>
+</body>
+
+</html>
