@@ -7,7 +7,29 @@
 </head>
 <body>
     <script>
-        
+        let dado1=[];
+        let dado2=[];
+
+        function lanzamientoDados(){
+            let sumas=[2,3,4,5,6,7,8,9,10,11,12];
+            let veces=[0,0,0,0,0,0,0,0,0,0,0];
+
+            let suma
+
+            for(let i=0;i<36000;i++){
+                dado1[i]=Math.floor(Math.random()*6)+1;
+                dado2[i]=Math.floor(Math.random()*6)+1;
+
+                suma=dado1[i]+dado2[i];
+                veces[suma-2]+=1;
+            }
+
+            for(let i=0;i<sumas.length;i++){
+                console.log(`Suma ${sumas[i]}: ${veces[i]} veces`);
+            }
+        }
+
+        lanzamientoDados();
     </script>
 </body>
 </html>
