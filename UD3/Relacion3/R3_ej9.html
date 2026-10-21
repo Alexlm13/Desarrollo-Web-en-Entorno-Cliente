@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <script>
-        
-    </script>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Dado 1</th>
+            <th>Dado 2</th>
+            <th>Suma</th>
+        </tr>
+    </thead>
+    <tbody id="tabla"></tbody>
+</table>
+
+<script>
+    let dados = [];
+    let tabla = "";
+
+    function lanzamientoDados() {
+        let sumas = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+        let veces = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+        let suma;
+
+        for (let i = 0; i < 36000; i++) {
+            let dado1 = Math.floor(Math.random() * 6) + 1;
+            let dado2 = Math.floor(Math.random() * 6) + 1;
+
+            dados[i] = [dado1, dado2];
+
+            suma = dado1 + dado2;
+            veces[suma - 2]++;
+        }
+
+        for (let i = 0; i < dados.length; i++) {
+            tabla += `<tr>
+                <td>${dados[i][0]}</td>
+                <td>${dados[i][1]}</td>
+                <td>${dados[i][0] + dados[i][1]}</td>
+            </tr>`;
+        }
+
+        document.getElementById("tabla").innerHTML = tabla;
+
+        for (let i = 0; i < sumas.length; i++) {
+            console.log(`Suma ${sumas[i]}: ${veces[i]} veces`);
+        }
+    }
+
+    lanzamientoDados();
+</script>
 </body>
+
 </html>
