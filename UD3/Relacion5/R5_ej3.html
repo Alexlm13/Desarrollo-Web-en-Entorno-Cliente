@@ -9,7 +9,32 @@
 </head>
 <body>
     <script>
-        
+        let tesoro=[
+            [34,21,32,41,25],
+            [14,42,43,14,31],
+            [54,45,52,42,23],
+            [33,15,51,31,35],
+            [21,52,33,13,23]
+        ]
+        let valor=tesoro[0][0];
+        let fila=0;
+        let columna=0;
+        let tesoroEncontrado=false;
+
+        while (!tesoroEncontrado) {
+            valor=tesoro[fila][columna];
+            document.write("Casilla: " + (fila + 1) + ", " +(columna + 1) + "<br>");
+            
+            if (valor==(fila+1)*10+(columna+1)) {
+                document.write("Tesoro encontrado.");
+                tesoroEncontrado=true;
+                break;
+            }
+            
+            fila=(Math.floor(valor/10))-1;
+            columna=(valor%10)-1;
+        }
     </script>
+
 </body>
 </html>
