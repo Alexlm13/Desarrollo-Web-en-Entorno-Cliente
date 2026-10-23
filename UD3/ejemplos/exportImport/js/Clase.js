@@ -9,7 +9,10 @@ export default class Clase {
   }
 
   eliminarAlumnos(alumno){
-    this.alumnos.findIndex(a=>a.);
+    let indice=this.alumnos.findIndex(a=>a===alumno);
+    if(indice!==-1){
+      this.alumnos.splice(indice,1)
+    }
   }
 
   mostrarContenido() {

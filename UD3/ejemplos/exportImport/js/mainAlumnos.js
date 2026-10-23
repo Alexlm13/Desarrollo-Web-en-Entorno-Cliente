@@ -10,5 +10,6 @@ import Clase from "./Clase.js"
     c.añadirAlumnos(a2);
 
     c.mostrarContenido();
+    c.eliminarAlumnos(a2)
     
 })()
