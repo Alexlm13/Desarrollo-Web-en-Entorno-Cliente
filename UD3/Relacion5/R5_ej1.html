@@ -10,6 +10,29 @@
 <body>
     <script>
         
+
+
+        let palabras = ["sol", "ordenador", "gato", "programacion", "javascript", "mariposa", "desarrollador", "casa", "teclado", "web", "paréntesis"];
+        let numeros = [17, 83, 42, 9, 65, 31, 96, 54, 12, 78];
+        let otrosNumeros = [8, 23, 41, 56, 72, 14, 39, 90, 5, 67];
+        
+        document.write(`<p>Arrays originales: ${palabras}<br>${numeros}<br>${otrosNumeros}</p>`);
+        
+        
+        document.write(`El número más alto es: ${numeros.sort((a, b)=>a-b)[numeros.length-1]}<br>`);
+        document.write(`Los números pares son: ${numeros.filter(numero=>numero%2===0)}<br>`);
+        document.write(`Los números impares son: ${numeros.filter(numero=>numero%2===1)}<br>`);
+        document.write(`Los números que son divisible entre 3: ${numeros.filter(numero=>numero%3===0)}<br>`);        
+        document.write(`La palabra más larga es: ${palabras.sort((a,b)=>a.length-b.length)[palabras.length-1]}<br>`);
+        document.write(`La palabra que contenga 'is': ${palabras.filter(palabra=>palabra.includes("is"))}<br>`);
+        document.write(`Primera palabra eliminada: ${palabras.shift()}<br>`);
+        palabras.unshift("luna");
+        document.write(`Primera palabra añadida: ${palabras[0]}<br>`);
+        document.write(`Arrays juntos: ${numeros.concat(otrosNumeros)}<br>`);
+        document.write(`Arrays juntos: ${numeros.concat(otrosNumeros).sort((a,b)=>a-b)}<br>`);
+        palabras.splice(2,1,"perro");
+        document.write(`Palabra gato sustituida por perro: ${palabras}`);
+
     </script>
 </body>
 </html>

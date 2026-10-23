@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+        let asientos = [
+            [1, "first", ""],
+            [2, "first", ""],
+            [3, "first", ""],
+            [4, "first", ""],
+            [5, "first", ""],
+            [6, "turista", ""],
+            [7, "turista", ""],
+            [8, "turista", ""],
+            [9, "turista", ""],
+            [10, "turista", ""],
+        ];
+
+        let totalReservados = 0;
+
+        do {
+            let tipoAsiento = prompt("¿Qué clase de asiento quiere? (First/Turista)").toLowerCase();
+            let reservado = false;
+            debugger;
+            
+            for (let i = 0; i < asientos.length; i++) {
+                if (tipoAsiento === asientos[i][1] && asientos[i][2] === "") {
+                    let nombre = prompt("Escriba su nombre");
+                    asientos[i][2] = nombre;
+
+                    let ventana = window.open();
+
+
+                    ventana.document.write(`
+                    TARJETA DE EMBARQUE<br>
+                    Nombre: ${asientos[i][2]}<br>
+                    Clase: ${asientos[i][1]}<br>
+                    Asiento: ${asientos[i][0]}
+                `);
+
+                    reservado = true;
+                    totalReservados++;
+                    break;
+                }
+            }
+
+            if (!reservado) {
+                alert("No hay asientos disponibles de esa clase.");
+            }
+
+        } while (totalReservados < 10);
+
+        alert("Todos los asientos están ocupados.")
+
     </script>
 </body>
+
 </html>

@@ -8,7 +8,11 @@
 </head>
 <body>
     <script>
-        
+        let nombres = ["Juan", "Ana", "Javier", "Laura", "Julia", "Pedro", "José", "Marta", "Jorge", "Lucía"];
+
+
+        document.write(`${nombres}<br>`);
+        document.write(nombres.filter(nombre=>nombre.startsWith("J")).map(nombre=>nombre[0].toUpperCase()).sort());
     </script>
 </body>
 </html>
