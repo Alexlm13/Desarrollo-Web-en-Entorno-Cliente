@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/scripts.js"></script>
 
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+        let tabla = [
+            [3, 5, 4, 2, 1],
+            [7, 6, 9, 1, 4],
+            [2, 6, 3, 8, 5],
+            [4, 7, 1, 6, 9],
+            [5, 9, 8, 3, 7]
+        ];
+
+        let encontrado = false;
+
+        for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 5; j++) {
+                let esMayor = true;
+                let esMenor = true;
+
+                // Comprobar si es el mayor de su fila
+                for (let k = 0; k < 5; k++) {
+                    if (tabla[i][k] > tabla[i][j]) {
+                        esMayor = false;
+                    }
+                }
+
+                // Comprobar si es el menor de su columna
+                for (let k = 0; k < 5; k++) {
+                    if (tabla[k][j] < tabla[i][j]) {
+                        esMenor = false;
+                    }
+                }
+
+                // Comprobar si es punto de silla
+                if (esMayor && esMenor) {
+                    console.log("Punto de silla: fila " + (i + 1) +", columna " + (j + 1) +", valor " + tabla[i][j]);
+                    encontrado = true;
+                }
+            }
+        }
+
+        if (!encontrado) {
+            console.log("No saddle points");
+        }
     </script>
 </body>
+
 </html>

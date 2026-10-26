@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/scripts.js"></script>
-
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        
+        let mensaje = "If man was meant to stay on the ground god would have given us roots";
+
+        let nuevoMensaje = mensaje.replaceAll(" ", "");
+        let longitud = nuevoMensaje.length;
+
+        let columnas = Math.ceil(Math.sqrt(longitud));
+        let filas = Math.floor(Math.sqrt(longitud));
+
+
+        while (filas * columnas < longitud) {
+            filas++;
+        }
+
+
+        let ar = [];
+
+        for (let i = 0; i < longitud; i += columnas) {
+            ar.push(nuevoMensaje.slice(i, i + columnas).split(""));
+        }
+
+
+        let mensajeCifrado = "";
+
+        for (let j = 0; j < columnas; j++) {
+            for (let i = 0; i < filas; i++) {
+                if (ar[i] && ar[i][j]) {
+                    mensajeCifrado += ar[i][j];
+                }
+            }
+            mensajeCifrado += " ";
+        }
+
+        console.log(mensajeCifrado.trim());
     </script>
 </body>
+
 </html>

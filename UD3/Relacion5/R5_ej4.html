@@ -4,14 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/scripts.js"></script>
 
     <title>Document</title>
 </head>
 
 <body>
     <script>
-        
+        function crearTesoro(filas, columnas) {
+            let tesoro = [];
+
+            for (let i = 0; i < filas; i++) {
+                let fila = [];
+
+                for (let j = 0; j < columnas; j++) {
+                    let decenas = Math.floor(Math.random() * filas) + 1;
+                    let unidades = Math.floor(Math.random() * columnas) + 1
+
+                    fila.push(decenas * 10 + unidades);
+                }
+                tesoro.push(fila);
+            }
+            let pasos = Math.floor(Math.random() * 15) + 5;
+            let filaActual = 0;
+            let columnaActual = 0;
+
+            for (let i = 0; i < pasos; i++) {
+                let filaSiguiente = Math.floor(Math.random() * filas);
+                let columnaSiguiente = Math.floor(Math.random() * columnas);
+
+                tesoro[filaActual][columnaActual] = (filaSiguiente + 1) * 10 + (columnaSiguiente + 1);
+
+                filaActual = filaSiguiente;
+                columnaActual = columnaSiguiente;
+            }
+
+            tesoro[filaActual][columnaActual] =
+                (filaActual + 1) * 10 + (columnaActual + 1);
+
+            return tesoro;
+        }
+
+        let matriz = crearTesoro(5, 5);
+        console.log(matriz);
+
+        let valor;
+        let fila = 0;
+        let columna = 0;
+        let tesoroEncontrado = false;
+
+        while (!tesoroEncontrado) {
+            valor = matriz[fila][columna];
+
+            document.write("Casilla: " + (fila + 1) + ", " + (columna + 1) + "<br>");
+
+            if (valor == (fila + 1) * 10 + (columna + 1)) {
+                document.write("Tesoro encontrado.");
+                tesoroEncontrado = true;
+            } else {
+                fila = Math.floor(valor / 10) - 1;
+                columna = (valor % 10) - 1;
+            }
+        }
     </script>
 </body>
 
