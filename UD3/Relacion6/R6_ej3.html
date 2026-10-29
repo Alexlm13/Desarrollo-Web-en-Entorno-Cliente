@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/FuncionesArrow.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,6 +10,10 @@
         // 3. Write an arrow function that takes an array of integers, and returns the sum of 
         // the elements in the array. Google and use the built-in reduce array method for this.
         
+
+        const sumArray=(arr)=> arr.reduce((sum,num)=>sum+num,0);
+
+        console.log(sumArray([1,2,3,4,5]));
     </script>
 </body>
 </html>
