@@ -1,17 +1,17 @@
 import db from "../db.json" with { type: "json" };
 
 
-function filtraID(arEstudiantes, id){
-    return arEstudiantes.filter(estudiante=>estudiante.id>id);
+function filtraID(id){
+    return (estudiante)=>estudiante.id>id;
   
 }
 
-function filtraNivel(arEstudiantes, nivel){
-    return arEstudiantes.filter(estudiante=estudiante.level=nivel);
+function filtraNivel(nivel){
+    return (estudiante)=>estudiante.level===nivel;
 }
 
 function filtraGenerica(arEstudiantes, filtro){
-    return filtrar(filtraID(arEstudiantes,filtro), filtraNivel(arEstudiantes,filtro));
+    return arEstudiantes.filter(filtro)
 }
 
 
@@ -31,8 +31,7 @@ function muestraEstudiantes(arEstudiantes, filtro) {
 //     estudiante += muestraEstudiante(filtrado[i]);
 //   }
 
-  let strEstudiantes = arEstudiantes
-  .filtaGenerica(arEstudiantes,)
+  let strEstudiantes = filtraGenerica(arEstudiantes, filtro)
   .sort((a,b)=>a.name.localeCompare(b.name))
   .map((estudiante) =>`<tr><td>${estudiante.id}</td><td>${estudiante.name}</td><td>${estudiante.level}</td></tr>`)
   .join("");
@@ -72,5 +71,5 @@ function muestraEstudiantes(arEstudiantes, filtro) {
   console.log(db);
   console.log(db.students[0]);
   console.log(db.courses);
-  document.getElementById("estudiantes").innerHTML = muestraEstudiantes(db.students,2);
+  document.getElementById("estudiantes").innerHTML = muestraEstudiantes(db.students,filtraNivel("intermediate"));
 })();
