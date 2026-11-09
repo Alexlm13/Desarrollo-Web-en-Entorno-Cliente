@@ -4,20 +4,29 @@ const alumnos=[
     {id: 3, nombre:"David", curso:"2ASIR"}
 ]
 
-const fCreaAlumnos=(arAlumnos)=>{
+const fCreaAlumnos = (arAlumnos) => {
+    let divPrincipal = document.getElementById('principal');
     arAlumnos.forEach(alumno => {
-        fCreaAlumno(alumno);
+        divPrincipal.appendChild(fCreaAlumno(alumno));
     });
 }
 
-const fCreaAlumno=(oalumno)=>{
-    let nodo=document.getElementById('principal');
+const fCreaAlumno = (alumno) => {
+    let divPadre = document.createElement('div');
+    let pId = document.createElement('p');
+    let pNombre = document.createElement('p');
+    let pCurso = document.createElement('p');
 
-    for (const atributo in oalumno) {
-        const p=document.createElement('p');    
-        p.appendChild(document.createTextNode(`${atributo}: ${oalumno[atributo]}`));
-        nodo.appendChild(p);
-    }
+    pId.textContent = alumno.id;
+    pNombre.textContent = alumno.nombre;
+    pCurso.textContent = alumno.curso;
+
+    divPadre.appendChild(pId);
+    divPadre.appendChild(pNombre);
+    divPadre.appendChild(pCurso);
+
+    return divPadre;
+
 }
 
 /**

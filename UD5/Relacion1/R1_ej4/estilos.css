@@ -1,0 +1,16 @@
+.card{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.card img{
+    width: 100%;
+}
+
+#articulos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
