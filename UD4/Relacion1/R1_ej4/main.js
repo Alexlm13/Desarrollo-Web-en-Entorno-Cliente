@@ -13,7 +13,7 @@ const crearCanvas=()=>{
             fila.appendChild(celda);
             celda.style.width="4px";
             celda.style.height="4px";
-            celda.style.border="1px solid black";
+            celda.style.border="1px";
             celda.style.padding="0";
             celda.addEventListener("mousemove",(event)=>{
                 console.log("celda")
