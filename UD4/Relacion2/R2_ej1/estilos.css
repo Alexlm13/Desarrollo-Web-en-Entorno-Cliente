@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(82, 82, 219) 50px, transparent 50px );
+    background-color: rgb(250, 250, 168);
+}
+
+#contenido{
+    margin-left: 60px;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links{
+    margin-top: 12px;
+    border: 1px solid black;
+    background-color: lightgray;
+    
+}
+
+a{
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#p4{
+    font-weight: bold;
+}
+
+#p5{
+    border: 1px solid black;
+    background-color: yellow;
+}
