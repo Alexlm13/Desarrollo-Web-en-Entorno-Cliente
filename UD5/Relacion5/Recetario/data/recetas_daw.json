@@ -1,0 +1,2340 @@
+{
+  "version": "1.0",
+  "descripcion": "Datos ficticios de recetas para ejercicios de DAW. Cantidades y valores nutricionales orientativos; no son instrucciones culinarias verificadas.",
+  "total": 36,
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Tortilla de patatas",
+      "descripcion": "Receta de española para preparar tortilla de patatas en casa.",
+      "categoria": "Principal",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 40,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "sal",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de tortilla de patatas.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de tortilla de patatas durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Huevo"
+      ],
+      "etiquetas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 430,
+        "proteinasG": 19.3,
+        "hidratosG": 40.9,
+        "grasasG": 15.1
+      },
+      "valoracion": 4.2,
+      "numeroValoraciones": 167,
+      "publicada": "2026-02-02",
+      "destacada": false
+    },
+    {
+      "id": 2,
+      "nombre": "Gazpacho andaluz",
+      "descripcion": "Receta de andaluza para preparar gazpacho andaluz en casa.",
+      "categoria": "Entrante",
+      "cocina": "Andaluza",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 20,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pimiento verde",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "vinagre",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "sal",
+          "cantidad": 150,
+          "unidad": "g"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de gazpacho andaluz.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten",
+        "verano"
+      ],
+      "nutricion": {
+        "caloriasKcal": 115,
+        "proteinasG": 5.2,
+        "hidratosG": 10.9,
+        "grasasG": 4.0
+      },
+      "valoracion": 4.8,
+      "numeroValoraciones": 160,
+      "publicada": "2026-03-03",
+      "destacada": false
+    },
+    {
+      "id": 3,
+      "nombre": "Salmorejo cordobés",
+      "descripcion": "Receta de andaluza para preparar salmorejo cordobés en casa.",
+      "categoria": "Entrante",
+      "cocina": "Andaluza",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 20,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "tomate",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pan",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "sal",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "jamón serrano",
+          "cantidad": 150,
+          "unidad": "g"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de salmorejo cordobés.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Huevo"
+      ],
+      "etiquetas": [
+        "verano"
+      ],
+      "nutricion": {
+        "caloriasKcal": 320,
+        "proteinasG": 14.4,
+        "hidratosG": 30.4,
+        "grasasG": 11.2
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 154,
+      "publicada": "2026-04-04",
+      "destacada": false
+    },
+    {
+      "id": 4,
+      "nombre": "Paella de verduras",
+      "descripcion": "Receta de española para preparar paella de verduras en casa.",
+      "categoria": "Principal",
+      "cocina": "Española",
+      "dificultad": "Media",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 35,
+      "tiempoTotal": 55,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pimiento rojo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "judías verdes",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "alcachofa",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "azafrán",
+          "cantidad": 150,
+          "unidad": "g"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de paella de verduras.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de paella de verduras durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 390,
+        "proteinasG": 17.6,
+        "hidratosG": 37.0,
+        "grasasG": 13.7
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 25,
+      "publicada": "2026-05-05",
+      "destacada": false
+    },
+    {
+      "id": 5,
+      "nombre": "Ensalada de garbanzos",
+      "descripcion": "Receta de mediterránea para preparar ensalada de garbanzos en casa.",
+      "categoria": "Ensalada",
+      "cocina": "Mediterránea",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 15,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "garbanzos cocidos",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pepino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla morada",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "limón",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de ensalada de garbanzos.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 340,
+        "proteinasG": 15.3,
+        "hidratosG": 32.3,
+        "grasasG": 11.9
+      },
+      "valoracion": 3.8,
+      "numeroValoraciones": 226,
+      "publicada": "2026-06-06",
+      "destacada": false
+    },
+    {
+      "id": 6,
+      "nombre": "Pasta con pesto",
+      "descripcion": "Receta de italiana para preparar pasta con pesto en casa.",
+      "categoria": "Principal",
+      "cocina": "Italiana",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 15,
+      "tiempoTotal": 25,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "pasta",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "albahaca",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "piñones",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de pasta con pesto.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de pasta con pesto durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Frutos de cáscara",
+        "Leche"
+      ],
+      "etiquetas": [
+        "vegetariana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 550,
+        "proteinasG": 24.8,
+        "hidratosG": 52.2,
+        "grasasG": 19.3
+      },
+      "valoracion": 3.9,
+      "numeroValoraciones": 268,
+      "publicada": "2026-07-07",
+      "destacada": true
+    },
+    {
+      "id": 7,
+      "nombre": "Lasaña de carne",
+      "descripcion": "Receta de italiana para preparar lasaña de carne en casa.",
+      "categoria": "Principal",
+      "cocina": "Italiana",
+      "dificultad": "Difícil",
+      "tiempoPreparacion": 30,
+      "tiempoCoccion": 50,
+      "tiempoTotal": 80,
+      "raciones": 6,
+      "ingredientes": [
+        {
+          "nombre": "placas de lasaña",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "carne picada",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "tomate triturado",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "harina",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "queso",
+          "cantidad": 150,
+          "unidad": "g"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de lasaña de carne.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de lasaña de carne durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Leche"
+      ],
+      "etiquetas": [
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 610,
+        "proteinasG": 27.4,
+        "hidratosG": 58.0,
+        "grasasG": 21.4
+      },
+      "valoracion": 4.6,
+      "numeroValoraciones": 217,
+      "publicada": "2026-08-08",
+      "destacada": false
+    },
+    {
+      "id": 8,
+      "nombre": "Pizza margarita",
+      "descripcion": "Receta de italiana para preparar pizza margarita en casa.",
+      "categoria": "Principal",
+      "cocina": "Italiana",
+      "dificultad": "Media",
+      "tiempoPreparacion": 25,
+      "tiempoCoccion": 15,
+      "tiempoTotal": 40,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "harina de trigo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "mozzarella",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "albahaca",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de pizza margarita.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de pizza margarita durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Leche"
+      ],
+      "etiquetas": [
+        "horno",
+        "vegetariana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 680,
+        "proteinasG": 30.6,
+        "hidratosG": 64.6,
+        "grasasG": 23.8
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 43,
+      "publicada": "2026-09-09",
+      "destacada": false
+    },
+    {
+      "id": 9,
+      "nombre": "Risotto de setas",
+      "descripcion": "Receta de italiana para preparar risotto de setas en casa.",
+      "categoria": "Principal",
+      "cocina": "Italiana",
+      "dificultad": "Media",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 30,
+      "tiempoTotal": 45,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "arroz arborio",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "setas",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de risotto de setas.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de risotto de setas durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche"
+      ],
+      "etiquetas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 460,
+        "proteinasG": 20.7,
+        "hidratosG": 43.7,
+        "grasasG": 16.1
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 112,
+      "publicada": "2026-10-10",
+      "destacada": false
+    },
+    {
+      "id": 10,
+      "nombre": "Hummus clásico",
+      "descripcion": "Receta de oriente medio para preparar hummus clásico en casa.",
+      "categoria": "Aperitivo",
+      "cocina": "Oriente Medio",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 10,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "garbanzos cocidos",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tahini",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "limón",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "comino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de hummus clásico.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Sésamo"
+      ],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 210,
+        "proteinasG": 9.4,
+        "hidratosG": 19.9,
+        "grasasG": 7.4
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 119,
+      "publicada": "2026-01-11",
+      "destacada": false
+    },
+    {
+      "id": 11,
+      "nombre": "Falafel al horno",
+      "descripcion": "Receta de oriente medio para preparar falafel al horno en casa.",
+      "categoria": "Principal",
+      "cocina": "Oriente Medio",
+      "dificultad": "Media",
+      "tiempoPreparacion": 25,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 50,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "garbanzos remojados",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cilantro",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "comino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de falafel al horno.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de falafel al horno durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten",
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 360,
+        "proteinasG": 16.2,
+        "hidratosG": 34.2,
+        "grasasG": 12.6
+      },
+      "valoracion": 4.0,
+      "numeroValoraciones": 75,
+      "publicada": "2026-02-12",
+      "destacada": false
+    },
+    {
+      "id": 12,
+      "nombre": "Tacos de pollo",
+      "descripcion": "Receta de mexicana para preparar tacos de pollo en casa.",
+      "categoria": "Principal",
+      "cocina": "Mexicana",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 20,
+      "tiempoTotal": 35,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "tortillas de maíz",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pechuga de pollo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "lima",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de tacos de pollo.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de tacos de pollo durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 420,
+        "proteinasG": 18.9,
+        "hidratosG": 39.9,
+        "grasasG": 14.7
+      },
+      "valoracion": 4.7,
+      "numeroValoraciones": 47,
+      "publicada": "2026-03-13",
+      "destacada": true
+    },
+    {
+      "id": 13,
+      "nombre": "Guacamole",
+      "descripcion": "Receta de mexicana para preparar guacamole en casa.",
+      "categoria": "Aperitivo",
+      "cocina": "Mexicana",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 10,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "aguacate",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "lima",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "cilantro",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "sal",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de guacamole.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 190,
+        "proteinasG": 8.5,
+        "hidratosG": 18.1,
+        "grasasG": 6.7
+      },
+      "valoracion": 3.9,
+      "numeroValoraciones": 53,
+      "publicada": "2026-04-14",
+      "destacada": false
+    },
+    {
+      "id": 14,
+      "nombre": "Chili sin carne",
+      "descripcion": "Receta de mexicana para preparar chili sin carne en casa.",
+      "categoria": "Principal",
+      "cocina": "Mexicana",
+      "dificultad": "Media",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 35,
+      "tiempoTotal": 55,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "alubias rojas",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tomate triturado",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "maíz",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pimiento rojo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "comino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": 150,
+          "unidad": "g"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de chili sin carne.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de chili sin carne durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 375,
+        "proteinasG": 16.9,
+        "hidratosG": 35.6,
+        "grasasG": 13.1
+      },
+      "valoracion": 4.2,
+      "numeroValoraciones": 254,
+      "publicada": "2026-05-15",
+      "destacada": false
+    },
+    {
+      "id": 15,
+      "nombre": "Cuscús con verduras",
+      "descripcion": "Receta de magrebí para preparar cuscús con verduras en casa.",
+      "categoria": "Principal",
+      "cocina": "Magrebí",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 15,
+      "tiempoTotal": 30,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "cuscús",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "comino",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de cuscús con verduras.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de cuscús con verduras durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten"
+      ],
+      "etiquetas": [
+        "vegana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 360,
+        "proteinasG": 16.2,
+        "hidratosG": 34.2,
+        "grasasG": 12.6
+      },
+      "valoracion": 4.4,
+      "numeroValoraciones": 84,
+      "publicada": "2026-06-16",
+      "destacada": false
+    },
+    {
+      "id": 16,
+      "nombre": "Curry de garbanzos",
+      "descripcion": "Receta de india para preparar curry de garbanzos en casa.",
+      "categoria": "Principal",
+      "cocina": "India",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 40,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "garbanzos cocidos",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche de coco",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "curry",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "espinacas",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de curry de garbanzos.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de curry de garbanzos durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 410,
+        "proteinasG": 18.4,
+        "hidratosG": 39.0,
+        "grasasG": 14.4
+      },
+      "valoracion": 4.5,
+      "numeroValoraciones": 221,
+      "publicada": "2026-07-17",
+      "destacada": false
+    },
+    {
+      "id": 17,
+      "nombre": "Pollo al curry",
+      "descripcion": "Receta de india para preparar pollo al curry en casa.",
+      "categoria": "Principal",
+      "cocina": "India",
+      "dificultad": "Media",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 30,
+      "tiempoTotal": 45,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "pollo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche de coco",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "curry",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "arroz basmati",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de pollo al curry.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de pollo al curry durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 530,
+        "proteinasG": 23.8,
+        "hidratosG": 50.4,
+        "grasasG": 18.6
+      },
+      "valoracion": 4.6,
+      "numeroValoraciones": 184,
+      "publicada": "2026-08-18",
+      "destacada": false
+    },
+    {
+      "id": 18,
+      "nombre": "Arroz tres delicias",
+      "descripcion": "Receta de asiática para preparar arroz tres delicias en casa.",
+      "categoria": "Principal",
+      "cocina": "Asiática",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 20,
+      "tiempoTotal": 35,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "guisantes",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "jamón cocido",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "salsa de soja",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de arroz tres delicias.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de arroz tres delicias durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Huevo",
+        "Soja",
+        "Gluten"
+      ],
+      "etiquetas": [
+        "económica"
+      ],
+      "nutricion": {
+        "caloriasKcal": 390,
+        "proteinasG": 17.6,
+        "hidratosG": 37.0,
+        "grasasG": 13.7
+      },
+      "valoracion": 3.5,
+      "numeroValoraciones": 202,
+      "publicada": "2026-09-19",
+      "destacada": true
+    },
+    {
+      "id": 19,
+      "nombre": "Wok de tofu",
+      "descripcion": "Receta de asiática para preparar wok de tofu en casa.",
+      "categoria": "Principal",
+      "cocina": "Asiática",
+      "dificultad": "Media",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 15,
+      "tiempoTotal": 35,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "tofu",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "brócoli",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "zanahoria",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pimiento",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "salsa de soja",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "sésamo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de wok de tofu.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de wok de tofu durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Soja",
+        "Gluten",
+        "Sésamo"
+      ],
+      "etiquetas": [
+        "vegana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 350,
+        "proteinasG": 15.8,
+        "hidratosG": 33.2,
+        "grasasG": 12.3
+      },
+      "valoracion": 4.3,
+      "numeroValoraciones": 193,
+      "publicada": "2026-10-20",
+      "destacada": false
+    },
+    {
+      "id": 20,
+      "nombre": "Sopa de verduras",
+      "descripcion": "Receta de mediterránea para preparar sopa de verduras en casa.",
+      "categoria": "Entrante",
+      "cocina": "Mediterránea",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 30,
+      "tiempoTotal": 45,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "zanahoria",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "puerro",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "apio",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "patata",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "calabacín",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": 30,
+          "unidad": "ml"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de sopa de verduras.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de sopa de verduras durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Apio"
+      ],
+      "etiquetas": [
+        "vegana",
+        "sin gluten",
+        "económica"
+      ],
+      "nutricion": {
+        "caloriasKcal": 145,
+        "proteinasG": 6.5,
+        "hidratosG": 13.8,
+        "grasasG": 5.1
+      },
+      "valoracion": 3.6,
+      "numeroValoraciones": 256,
+      "publicada": "2026-01-21",
+      "destacada": false
+    },
+    {
+      "id": 21,
+      "nombre": "Crema de calabaza",
+      "descripcion": "Receta de mediterránea para preparar crema de calabaza en casa.",
+      "categoria": "Entrante",
+      "cocina": "Mediterránea",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 40,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "calabaza",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "patata",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "caldo de verduras",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de crema de calabaza.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de crema de calabaza durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 175,
+        "proteinasG": 7.9,
+        "hidratosG": 16.6,
+        "grasasG": 6.1
+      },
+      "valoracion": 4.0,
+      "numeroValoraciones": 14,
+      "publicada": "2026-02-22",
+      "destacada": false
+    },
+    {
+      "id": 22,
+      "nombre": "Merluza al horno",
+      "descripcion": "Receta de española para preparar merluza al horno en casa.",
+      "categoria": "Principal",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 40,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "merluza",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "patata",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "limón",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "perejil",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de merluza al horno.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de merluza al horno durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Pescado"
+      ],
+      "etiquetas": [
+        "sin gluten",
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 390,
+        "proteinasG": 17.6,
+        "hidratosG": 37.0,
+        "grasasG": 13.7
+      },
+      "valoracion": 4.7,
+      "numeroValoraciones": 134,
+      "publicada": "2026-03-23",
+      "destacada": false
+    },
+    {
+      "id": 23,
+      "nombre": "Salmón con limón",
+      "descripcion": "Receta de mediterránea para preparar salmón con limón en casa.",
+      "categoria": "Principal",
+      "cocina": "Mediterránea",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 20,
+      "tiempoTotal": 30,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "salmón",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "limón",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "espárragos",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "pimienta",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de salmón con limón.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de salmón con limón durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Pescado"
+      ],
+      "etiquetas": [
+        "sin gluten",
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 480,
+        "proteinasG": 21.6,
+        "hidratosG": 45.6,
+        "grasasG": 16.8
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 121,
+      "publicada": "2026-04-24",
+      "destacada": false
+    },
+    {
+      "id": 24,
+      "nombre": "Ensalada César",
+      "descripcion": "Receta de internacional para preparar ensalada césar en casa.",
+      "categoria": "Ensalada",
+      "cocina": "Internacional",
+      "dificultad": "Media",
+      "tiempoPreparacion": 20,
+      "tiempoCoccion": 10,
+      "tiempoTotal": 30,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "lechuga romana",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pollo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pan tostado",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "parmesano",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "anchoas",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "yogur",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de ensalada césar.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de ensalada césar durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Leche",
+        "Pescado"
+      ],
+      "etiquetas": [],
+      "nutricion": {
+        "caloriasKcal": 440,
+        "proteinasG": 19.8,
+        "hidratosG": 41.8,
+        "grasasG": 15.4
+      },
+      "valoracion": 4.8,
+      "numeroValoraciones": 196,
+      "publicada": "2026-05-25",
+      "destacada": true
+    },
+    {
+      "id": 25,
+      "nombre": "Bocadillo vegetal",
+      "descripcion": "Receta de española para preparar bocadillo vegetal en casa.",
+      "categoria": "Principal",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 10,
+      "raciones": 1,
+      "ingredientes": [
+        {
+          "nombre": "pan integral",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "lechuga",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "huevo cocido",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "mayonesa",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de bocadillo vegetal.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Huevo"
+      ],
+      "etiquetas": [
+        "rápida",
+        "vegetariana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 385,
+        "proteinasG": 17.3,
+        "hidratosG": 36.6,
+        "grasasG": 13.5
+      },
+      "valoracion": 3.6,
+      "numeroValoraciones": 44,
+      "publicada": "2026-06-01",
+      "destacada": false
+    },
+    {
+      "id": 26,
+      "nombre": "Tostadas con aguacate",
+      "descripcion": "Receta de internacional para preparar tostadas con aguacate en casa.",
+      "categoria": "Desayuno",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 10,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "pan integral",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aguacate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "limón",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "sal",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de tostadas con aguacate.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten"
+      ],
+      "etiquetas": [
+        "vegana",
+        "rápida"
+      ],
+      "nutricion": {
+        "caloriasKcal": 310,
+        "proteinasG": 13.9,
+        "hidratosG": 29.4,
+        "grasasG": 10.9
+      },
+      "valoracion": 4.6,
+      "numeroValoraciones": 110,
+      "publicada": "2026-07-02",
+      "destacada": false
+    },
+    {
+      "id": 27,
+      "nombre": "Tortitas de avena",
+      "descripcion": "Receta de internacional para preparar tortitas de avena en casa.",
+      "categoria": "Desayuno",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 15,
+      "tiempoTotal": 25,
+      "raciones": 2,
+      "ingredientes": [
+        {
+          "nombre": "copos de avena",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "plátano",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "leche",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "canela",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de tortitas de avena.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de tortitas de avena durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Huevo",
+        "Leche"
+      ],
+      "etiquetas": [
+        "vegetariana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 365,
+        "proteinasG": 16.4,
+        "hidratosG": 34.7,
+        "grasasG": 12.8
+      },
+      "valoracion": 4.5,
+      "numeroValoraciones": 78,
+      "publicada": "2026-08-03",
+      "destacada": false
+    },
+    {
+      "id": 28,
+      "nombre": "Porridge de manzana",
+      "descripcion": "Receta de internacional para preparar porridge de manzana en casa.",
+      "categoria": "Desayuno",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 5,
+      "tiempoCoccion": 10,
+      "tiempoTotal": 15,
+      "raciones": 1,
+      "ingredientes": [
+        {
+          "nombre": "copos de avena",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "manzana",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "canela",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "nueces",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de porridge de manzana.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de porridge de manzana durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Gluten",
+        "Leche",
+        "Frutos de cáscara"
+      ],
+      "etiquetas": [
+        "vegetariana"
+      ],
+      "nutricion": {
+        "caloriasKcal": 380,
+        "proteinasG": 17.1,
+        "hidratosG": 36.1,
+        "grasasG": 13.3
+      },
+      "valoracion": 3.9,
+      "numeroValoraciones": 169,
+      "publicada": "2026-09-04",
+      "destacada": false
+    },
+    {
+      "id": 29,
+      "nombre": "Brownie de chocolate",
+      "descripcion": "Receta de americana para preparar brownie de chocolate en casa.",
+      "categoria": "Postre",
+      "cocina": "Americana",
+      "dificultad": "Media",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 30,
+      "tiempoTotal": 45,
+      "raciones": 8,
+      "ingredientes": [
+        {
+          "nombre": "chocolate negro",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "harina de trigo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "nueces",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de brownie de chocolate.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de brownie de chocolate durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche",
+        "Huevo",
+        "Gluten",
+        "Frutos de cáscara"
+      ],
+      "etiquetas": [
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 465,
+        "proteinasG": 20.9,
+        "hidratosG": 44.2,
+        "grasasG": 16.3
+      },
+      "valoracion": 4.8,
+      "numeroValoraciones": 175,
+      "publicada": "2026-10-05",
+      "destacada": false
+    },
+    {
+      "id": 30,
+      "nombre": "Bizcocho de yogur",
+      "descripcion": "Receta de española para preparar bizcocho de yogur en casa.",
+      "categoria": "Postre",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 35,
+      "tiempoTotal": 50,
+      "raciones": 8,
+      "ingredientes": [
+        {
+          "nombre": "yogur natural",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "harina de trigo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de girasol",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "levadura química",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de bizcocho de yogur.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de bizcocho de yogur durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche",
+        "Huevo",
+        "Gluten"
+      ],
+      "etiquetas": [
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 315,
+        "proteinasG": 14.2,
+        "hidratosG": 29.9,
+        "grasasG": 11.0
+      },
+      "valoracion": 3.7,
+      "numeroValoraciones": 60,
+      "publicada": "2026-01-06",
+      "destacada": true
+    },
+    {
+      "id": 31,
+      "nombre": "Arroz con leche",
+      "descripcion": "Receta de española para preparar arroz con leche en casa.",
+      "categoria": "Postre",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 10,
+      "tiempoCoccion": 40,
+      "tiempoTotal": 50,
+      "raciones": 6,
+      "ingredientes": [
+        {
+          "nombre": "arroz",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "azúcar",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "canela",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "piel de limón",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de arroz con leche.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de arroz con leche durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche"
+      ],
+      "etiquetas": [
+        "vegetariana",
+        "sin gluten"
+      ],
+      "nutricion": {
+        "caloriasKcal": 290,
+        "proteinasG": 13.0,
+        "hidratosG": 27.6,
+        "grasasG": 10.2
+      },
+      "valoracion": 4.8,
+      "numeroValoraciones": 151,
+      "publicada": "2026-02-07",
+      "destacada": false
+    },
+    {
+      "id": 32,
+      "nombre": "Macedonia de frutas",
+      "descripcion": "Receta de internacional para preparar macedonia de frutas en casa.",
+      "categoria": "Postre",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 15,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "manzana",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "plátano",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "naranja",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "kiwi",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "fresas",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "zumo de naranja",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de macedonia de frutas.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten",
+        "rápida"
+      ],
+      "nutricion": {
+        "caloriasKcal": 135,
+        "proteinasG": 6.1,
+        "hidratosG": 12.8,
+        "grasasG": 4.7
+      },
+      "valoracion": 4.0,
+      "numeroValoraciones": 37,
+      "publicada": "2026-03-08",
+      "destacada": false
+    },
+    {
+      "id": 33,
+      "nombre": "Yogur con frutos rojos",
+      "descripcion": "Receta de internacional para preparar yogur con frutos rojos en casa.",
+      "categoria": "Postre",
+      "cocina": "Internacional",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 5,
+      "tiempoCoccion": 0,
+      "tiempoTotal": 5,
+      "raciones": 1,
+      "ingredientes": [
+        {
+          "nombre": "yogur natural",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "arándanos",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "frambuesas",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "miel",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "almendras",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de yogur con frutos rojos.",
+        "Mezclar los ingredientes y ajustar el aliño o la textura.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche",
+        "Frutos de cáscara"
+      ],
+      "etiquetas": [
+        "vegetariana",
+        "rápida"
+      ],
+      "nutricion": {
+        "caloriasKcal": 235,
+        "proteinasG": 10.6,
+        "hidratosG": 22.3,
+        "grasasG": 8.2
+      },
+      "valoracion": 4.6,
+      "numeroValoraciones": 190,
+      "publicada": "2026-04-09",
+      "destacada": false
+    },
+    {
+      "id": 34,
+      "nombre": "Croquetas de jamón",
+      "descripcion": "Receta de española para preparar croquetas de jamón en casa.",
+      "categoria": "Aperitivo",
+      "cocina": "Española",
+      "dificultad": "Difícil",
+      "tiempoPreparacion": 30,
+      "tiempoCoccion": 25,
+      "tiempoTotal": 55,
+      "raciones": 6,
+      "ingredientes": [
+        {
+          "nombre": "jamón serrano",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "leche",
+          "cantidad": 30,
+          "unidad": "ml"
+        },
+        {
+          "nombre": "harina de trigo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "mantequilla",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "huevo",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "pan rallado",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de croquetas de jamón.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de croquetas de jamón durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche",
+        "Gluten",
+        "Huevo"
+      ],
+      "etiquetas": [],
+      "nutricion": {
+        "caloriasKcal": 305,
+        "proteinasG": 13.7,
+        "hidratosG": 29.0,
+        "grasasG": 10.7
+      },
+      "valoracion": 3.5,
+      "numeroValoraciones": 151,
+      "publicada": "2026-05-10",
+      "destacada": false
+    },
+    {
+      "id": 35,
+      "nombre": "Patatas bravas",
+      "descripcion": "Receta de española para preparar patatas bravas en casa.",
+      "categoria": "Aperitivo",
+      "cocina": "Española",
+      "dificultad": "Fácil",
+      "tiempoPreparacion": 15,
+      "tiempoCoccion": 30,
+      "tiempoTotal": 45,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "patata",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "tomate triturado",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "pimentón",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "ajo",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 30,
+          "unidad": "ml"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de patatas bravas.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de patatas bravas durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [],
+      "etiquetas": [
+        "vegana",
+        "sin gluten",
+        "económica"
+      ],
+      "nutricion": {
+        "caloriasKcal": 285,
+        "proteinasG": 12.8,
+        "hidratosG": 27.1,
+        "grasasG": 10.0
+      },
+      "valoracion": 4.2,
+      "numeroValoraciones": 39,
+      "publicada": "2026-06-11",
+      "destacada": false
+    },
+    {
+      "id": 36,
+      "nombre": "Berenjenas rellenas",
+      "descripcion": "Receta de mediterránea para preparar berenjenas rellenas en casa.",
+      "categoria": "Principal",
+      "cocina": "Mediterránea",
+      "dificultad": "Media",
+      "tiempoPreparacion": 25,
+      "tiempoCoccion": 35,
+      "tiempoTotal": 60,
+      "raciones": 4,
+      "ingredientes": [
+        {
+          "nombre": "berenjena",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "carne picada",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "cebolla",
+          "cantidad": 1,
+          "unidad": "unidad"
+        },
+        {
+          "nombre": "tomate",
+          "cantidad": 150,
+          "unidad": "g"
+        },
+        {
+          "nombre": "queso rallado",
+          "cantidad": 1,
+          "unidad": "unidad"
+        }
+      ],
+      "pasos": [
+        "Preparar y medir los ingredientes de berenjenas rellenas.",
+        "Cocinar o mezclar los ingredientes siguiendo la técnica de berenjenas rellenas durante el tiempo indicado.",
+        "Comprobar el punto de cocción si corresponde y servir."
+      ],
+      "alergenos": [
+        "Leche"
+      ],
+      "etiquetas": [
+        "sin gluten",
+        "horno"
+      ],
+      "nutricion": {
+        "caloriasKcal": 440,
+        "proteinasG": 19.8,
+        "hidratosG": 41.8,
+        "grasasG": 15.4
+      },
+      "valoracion": 4.5,
+      "numeroValoraciones": 170,
+      "publicada": "2026-07-12",
+      "destacada": true
+    }
+  ]
+}
