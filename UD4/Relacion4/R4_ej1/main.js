@@ -24,7 +24,7 @@ function validarCorreo(valor){
 }
 
 function validarTarjetaCredito(valor){
-    const numero=valor.split(" ").join("");
+    const numero=valor.split(" ").join("").split("-").join("");
     
     if(numero.length!==16){
         return false;
@@ -35,4 +35,18 @@ function validarTarjetaCredito(valor){
     }
 
     return true;
+}
+
+function validarLongitud(valor){
+    return valor.length>=8;
+}
+
+function validarNumero(valor){
+    for (const c of valor) {
+        if(c>="0" && c<="9"){
+            return true;
+        }
+    }
+
+    return false;
 }
