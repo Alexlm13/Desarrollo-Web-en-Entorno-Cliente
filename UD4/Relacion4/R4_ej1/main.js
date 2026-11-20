@@ -50,3 +50,17 @@ function validarNumero(valor){
 
     return false;
 }
+
+const form=document.forms.formulario
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log(
+        "Mayúscula: " + validarMayuscula(form.mayus.value) + "\n" +
+        "Especiales: " + validarCaracteresEspeciales(form.especial.value) + "\n" +
+        "Email: " + validarCorreo(form.email.value) + "\n" +
+        "Tarjeta: " + validarTarjetaCredito(form.tarjeta.value) + "\n" +
+        "Longitud: " + validarLongitud(form.long.value) + "\n" +
+        "Número: " + validarNumero(form.num.value)
+    )
+})
