@@ -4,14 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="main.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <div>
         <form name="formulario">
-            <input type="text" value="username">
-            <input type="submit" value="Submit" id="boton">
+            <input type="text" placeholder="username" name="usuario">
+            <ul id="lista">
+                <li id="minuscula"><output name="minus"></output></li>
+                <li id="mayuscula"><output name="mayus"></output></li>
+                <li id="minimo"><output name="min"></output></li>
+            </ul>
+            <button type="submit" name="boton" disabled>Submit</button>
         </form>
     </div>
 </body>
