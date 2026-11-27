@@ -1,0 +1,13 @@
+#idRespuesta{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 15px;
+}
+
+.tarjeta{
+    width: 220px;
+    border:2px solid grey;
+    border-radius: 15px;
+    padding:10px;
+}
